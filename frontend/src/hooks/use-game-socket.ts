@@ -29,7 +29,7 @@ export type Room = {
 type ConnectionState = 'connecting' | 'connected' | 'disconnected';
 type Identity = { playerId?: string; name: string; roomId?: string; pin?: string; seat?: Seat };
 
-const API_URL = https://cards-wc26.onrender.com || '/game-api';
+const API_URL = 'https://cards-wc26.onrender.com' || '/game-api';
 const IDENTITY_KEY = 'dehla-pakad-player';
 
 const emptyRoom = (id: string): Room => ({
