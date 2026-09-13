@@ -10,6 +10,13 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
+    "@radix-ui/react-tooltip": "latest",
+    "@radix-ui/react-slot": "latest",
+    "@radix-ui/react-dialog": "latest",
+    "@radix-ui/react-label": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest",
     "@tanstack/react-query": "^5.90.21",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.545.0",
